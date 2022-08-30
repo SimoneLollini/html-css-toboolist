@@ -94,6 +94,10 @@ section{
     padding-top: 2rem;    
 }
 
+section>*{
+    margin-top: 1rem;
+}
+
 section>div{
     padding-bottom: 1rem;
    
