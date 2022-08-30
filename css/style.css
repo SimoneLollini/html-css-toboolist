@@ -19,6 +19,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
     font-family: 'Arial',  sans-serif;
 }
 
@@ -49,12 +50,9 @@ main{
 .container{
     width: 70%;
     margin: auto;
-    background-color: var(--c-background);
-    padding: 0rem 5rem;
-    padding-top: 1rem;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-
+    background-color: var(--c-addtexts);
+    
+    background-color: var(--c-addtexts);
 }
 
 #add_task{
@@ -73,7 +71,22 @@ main{
     color: var(--c-adds);
 }
 .container>.uppermain{
+    background-color: var(--c-background);
+    padding: 1rem 5rem;
     padding-bottom: 0.5rem;
-    border-bottom: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
+.lowermain{
+    margin-top: 2px;
+    background-color: var(--c-background);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: var(--c-text);
+    padding-left: 2rem;
+}
+
+.lowermain>h2{
+    padding-top: 0.5rem;
+}
