@@ -1,0 +1,22 @@
+:root{
+    --c-background:#FFFFFF;
+    --c-title:#000000;
+    --c-text:#444851;
+    --c-addt:#47ADF1;
+    --c-editorial:#45ABEA;
+    --c-recruiting:#65C0A9;
+    --c-q1:#9C72E4;
+    --c-uncheck:#EA5047;
+    --c-check:#64C0A9;
+    --c-mobile:#F29E33;
+    --c-website:#D863A1;
+    --c-sales:#B0C926;
+    --c-adds:#CDD3D7;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Arial',  sans-serif;
+}
+
