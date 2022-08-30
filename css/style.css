@@ -90,3 +90,79 @@ main{
 .lowermain>h2{
     padding-top: 0.5rem;
 }
+section{
+    padding-top: 2rem;    
+}
+
+section>div{
+    padding-bottom: 1rem;
+   
+}
+
+.check{
+    color: var(--c-check);
+    margin-left: 0.6rem;
+    margin-top: 0.3rem;
+    border: 1px solid var(--c-check);
+    padding: 4px 6px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+}
+
+.uncheck{
+    color: var(--c-uncheck);
+    margin-left: 0.6rem;
+    margin-top: 0.3rem;
+    border: 1px solid var(--c-uncheck);
+    padding: 4px 7px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+}
+
+.editorial{
+    background-color: var(--c-editorial);
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    color: var(--c-background);
+}
+
+.q1{
+    background-color: var(--c-q1);
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    color: var(--c-background);  
+}
+
+.recruiting{
+    background-color: var(--c-recruiting);
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    color: var(--c-background);
+}
+
+.mobile{
+    background-color: var(--c-mobile);
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    color: var(--c-background);
+}
+
+.website{
+    background-color: var(--c-website);
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    color: var(--c-background);
+}
+
+.sales{
+    background-color: var(--c-sales);
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    color: var(--c-background);
+}
