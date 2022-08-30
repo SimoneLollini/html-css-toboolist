@@ -1,6 +1,7 @@
 :root{
     --c-background:#FFFFFF;
     --c-title:#000000;
+    --c-backgroundmain:#F6F8F9;
     --c-text:#444851;
     --c-addt:#47ADF1;
     --c-editorial:#45ABEA;
@@ -18,5 +19,16 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Arial',  sans-serif;
+}
+
+header>img{
+    height: 3rem;
+    margin: 2rem 1rem;
+    vertical-align: middle;
+}
+
+#title{
+    font-size: 2.3rem;
+    vertical-align: middle;
 }
 
